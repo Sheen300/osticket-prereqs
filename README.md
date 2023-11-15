@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,35 +18,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create a resource group within Azure. Name it RG-osTicket. 
+- Choose your region.
+- Next go to Virtual Machines. Click Create. Add it to the resource group that we just made: RG-osTicket.
+- Name the Virtual Machine: vm-osTicket. No infrastructure redundancy required. Standard security type.
+- Windows 10 Pro version for the Images.
+- Standard: 4vcpus
+- Choose a username and password. You should see the images below.
 
-<h2>Installation Steps</h2>
+- ![image](https://github.com/Sheen300/osticket-prereqs/assets/150862861/c540347e-6115-4c23-b12a-3f292693c5f1)
+- ![image](https://github.com/Sheen300/osticket-prereqs/assets/150862861/482cf00f-1992-4098-b807-720db1b11224)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- This helps you create the environment. Move forward with clicking Review+Create. Click virtual machines in Azure searchbar. You should see the now created Virtual Machine for os-Ticket that has now been created as depicted in the image below.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- ![image](https://github.com/Sheen300/osticket-prereqs/assets/150862861/a8c49fb7-3af0-456c-b985-ae530a69f3d7)
+ 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
 
